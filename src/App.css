@@ -6,6 +6,13 @@
   height: 40vmin;
   pointer-events: none;
 }
+.whiteColor{
+  color: #fff;
+}
+
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -22,6 +29,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.friend-name{
+  font-size: 14px;
+}
+
+.friend-tagline{
+  font-size: 12px;
+  color: #b3a9a9;
 }
 
 .App-link {
